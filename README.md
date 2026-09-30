@@ -22,7 +22,7 @@ Develop modern data warehouse using Oracle to consolidate sales data, enabling a
 
 
 ### BI: Analytics & Reporting (Data Analytics)
-#### Objective
+#### Objective:
 Develop SQL-based analytics to deliver detailed insights into:
 **Customer Behavior**
 **Product Performance**
