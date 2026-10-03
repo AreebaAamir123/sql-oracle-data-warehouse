@@ -1,3 +1,4 @@
+<img width="1238" height="724" alt="oracle dataflow dwh" src="https://github.com/user-attachments/assets/c88d796f-142a-4e3b-9c26-01d72b91999e" />
 # Oracle Data Warehouse — Medallion Architecture
 ## Data Warehouse and Analytics Project 
 💡 Welcome to the **Data Warehouse and Analytics Project** repository!
