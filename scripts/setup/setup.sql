@@ -1,24 +1,11 @@
 /* =====================================================================
-    1: SETUP DATABASE USERS (SCHEMAS)
+    1: SETUP DATABASE USERS  The Medallion Architecture (Bronze → Silver → Gold).
    =====================================================================
    WHAT THIS DOES :
    - Creates three separate "layers" in the database, one for each
      stage of the data pipeline: bronze, silver, and gold.
    - Each layer is a database user with its own password.
-   - Also creates a dedicated user for admin work if you want one.
    - Grants each user the basic permissions to log in and create tables.
-
-   WHY WE DO THIS:
-   - In Oracle, a "user" and a "schema" are the same thing.
-   - Separating layers into different schemas keeps raw data,
-     cleaned data, and reporting data completely isolated.
-   - This mirrors the Medallion Architecture (Bronze → Silver → Gold).
-
-   HOW TO RUN:
-   1. Connect to your Oracle XE database as the SYSTEM user.
-   2. Run this script ONCE. It creates the schemas.
-   3. Then create SQL Developer connections for each new user
-      (bronze, silver, gold) pointing to service name XEPDB1.
    ===================================================================== */
 
 -- Switch to the pluggable database (required in Oracle XE 21c+)
