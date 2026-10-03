@@ -2,7 +2,7 @@
 ## Data Warehouse and Analytics Project 
 💡 Welcome to the **Data Warehouse and Analytics Project** repository!
 
-<img width="1136" height="748" alt="High lvl Arch DWH" src="https://github.com/user-attachments/assets/1c1c1577-7e1e-4fad-a93d-8db84fc612ae" />
+<img width="900" height="500" alt="High lvl Arch DWH" src="https://github.com/user-attachments/assets/1c1c1577-7e1e-4fad-a93d-8db84fc612ae" />
 
 This project demonstrates comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry-wide best practices in data engineering and analytics. 
 
