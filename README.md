@@ -2,7 +2,6 @@
 ## Data Warehouse and Analytics Project 
 💡 Welcome to the **Data Warehouse and Analytics Project** repository!
 
-<img width="800" height="500" alt="oracle dataflow dwh" src="https://github.com/user-attachments/assets/c88d796f-142a-4e3b-9c26-01d72b91999e" />
 
 This project demonstrates comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry-wide best practices in data engineering and analytics. 
 
