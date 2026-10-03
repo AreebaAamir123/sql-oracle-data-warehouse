@@ -1,12 +1,10 @@
 /* =====================================================================
-   2: BRONZE LAYER — TABLE CREATION AND RAW DATA LOAD
+   2: BRONZE LAYER — TABLE CREATION + RAW DATA LOAD
    =====================================================================
    WHAT THIS DOES :
-   - Creates the six raw tables in the bronze schema.
-   - Truncates each table first, so this script can be re-run
-     safely without producing duplicate rows.
-   - Data is loaded MANUALLY using SQL Developer's "Import Data"
-     wizard .
+    Creates the six raw tables in the bronze schema.
+    Truncates each table first, so this script can be re-run safely without producing duplicate rows.
+    Data is loaded MANUALLY using SQL Developer's "Import Data" wizard .
    ===================================================================== */
 
 -- ---------------------------------------------------------------------
