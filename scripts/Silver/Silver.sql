@@ -1,11 +1,10 @@
 /* =====================================================================
    3: SILVER LAYER — LOAD AND CLEAN STORED PROCEDURE
    =====================================================================
-   WHAT THIS DOES (in plain English):
-   - Creates one stored procedure called silver.load_silver.
-   - When executed, this procedure:
+   WHAT THIS DOES :
+    Creates one stored procedure called silver.load_silver. This procedure:
        1. Empties each silver table (TRUNCATE) so it can be reloaded.
-       2. Reads from the matching bronze table.
+       2. Reads from bronze table.
        3. Cleans the data:
             - trims extra spaces,
             - replaces codes with friendly names (M → Male),
@@ -15,17 +14,12 @@
             - recomputes sales when the numbers don't add up.
        4. Inserts the cleaned rows into silver.
        5. Commits everything at the end.
-   - If anything fails, the procedure rolls back and prints a friendly
+    If anything fails, the procedure rolls back and prints a friendly
      message, then re-raises the error.
-
-   WHY A PROCEDURE:
-   - One command reruns the entire Silver build.
-   - Easy to schedule, version, and test.
-   - Keeps the transformation logic in one place.
 
 MAKE SURE TO MAKE THESE CHANGES IF YOU MODIFIED THE TABLE STRUCTURE ( SPLIT COL, CHANGED DATA TYPES)
 
-- Run as silver user, before running the procedure:
+- Run as silver user, before running the procedure!
 ALTER TABLE silver.crm_prd_info ADD (cat_id VARCHAR2(10));
 ALTER TABLE silver.crm_sales_details MODIFY (sls_order_dt DATE);
 ALTER TABLE silver.crm_sales_details MODIFY (sls_ship_dt DATE);
