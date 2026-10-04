@@ -31,3 +31,6 @@ Develop SQL-based analytics to deliver detailed insights into:
 **Sales Trends**
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+
+
+Important: This is a guided project from (Bara)[https://github.com/DataWithBaraa] who made it in sql server using t-sql, i've translated it to pl/sql in Oracle (XE)
